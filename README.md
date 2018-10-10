@@ -1,14 +1,36 @@
 # vim配置
 
 ## 安装
-将所有文件放到.vim下 替换.vimrc
 
+安装vundle插件  
+在家目录下创建.vim/bundle 文件夹  
+然后执行如下命令
+```
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+将.vimrc 复制到家目录下打开vim  
+执行  
+
+```
+:PluginInstall
+```
+
+这样插件就会安装完成 所有的插件都在 .vim/bundle/下  
+如果打开vim有报错试试这个  
+ 
+```
+https://github.com/tpope/vim-pathogen
+```
+或者将第3行的注释  
+之后就能愉快的使用了
 ## 支持的功能
+
 
 自动补全，函数跳转，目录树等等  
 可简单的替换ide  
 
 ## 简单使用
+
 
 F2 打开关闭目录树  
 F3 打开关闭tagbar  
