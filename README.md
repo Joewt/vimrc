@@ -10,9 +10,9 @@
 ```
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-将.vimrc 复制到家目录下打开vim  
-执行  
-
+将.vimrc 复制到家目录下  
+之后在命令行输入vim  
+安装插件使用如下命令
 ```
 :PluginInstall
 ```
